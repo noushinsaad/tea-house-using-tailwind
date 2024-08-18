@@ -284,7 +284,7 @@
                 <div class="flex items-center gap-2">
                     <h4>Ready to get started?</h4>
                     <button
-                        class="bg-gradient-to-r from-orange-500 to-red-500 px-4 py-2 text-white rounded-lg font-bold">
+                        onclick="getStarted()" class="bg-gradient-to-r from-orange-500 to-red-500 px-4 py-2 text-white rounded-lg font-bold">
                         Get Started
                     </button>
                 </div>
@@ -372,6 +372,10 @@
             var name=prompt("Please tell me your name.");
             alert("Hello "+name+"!!!!");
             console.log("Your name is "+name);
+        }
+
+        function getStarted(){
+            alert("Ready to get Started?");
         }
     </script>
 </body>
